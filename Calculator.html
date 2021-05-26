@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+		<title>Calculator</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+
+	<body>
+		<div id="main">
+
+			<table border="2" width="400px" height="400px">
+				<tr id="head">
+					<td colspan="4"><div class="title" id="heading">Ranjeet's Calculator</div></td>
+				</tr>
+				<tr>
+					<td colspan="3"><input type="text" id="textfield"> </td>
+			    	<td height="20%" width="50px"><input type="button" value="c" onclick="clr()"> </td>
+			    </tr>
+				<tr>
+					<td><input type="button" value="1" onclick="disp(&#39;1&#39;)"> </td>
+					<td><input type="button" value="2" onclick="disp(&#39;2&#39;)"> </td>
+					<td><input type="button" value="3" onclick="disp(&#39;3&#39;)"> </td>
+					<td><input type="button" value="+" onclick="disp(&#39;+&#39;)"> </td>
+				</tr>
+				<tr>
+					<td><input type="button" value="4" onclick="disp(&#39;4&#39;)"> </td>
+					<td><input type="button" value="5" onclick="disp(&#39;5&#39;)"> </td>
+					<td><input type="button" value="6" onclick="disp(&#39;6&#39;)"> </td>
+					<td><input type="button" value="-" onclick="disp(&#39;-&#39;)"> </td>
+				</tr>
+				<tr>
+					<td><input type="button" value="7" onclick="disp(&#39;7&#39;)"> </td>
+					<td><input type="button" value="8" onclick="disp(&#39;8&#39;)"> </td>
+					<td><input type="button" value="9" onclick="disp(&#39;9&#39;)"> </td>
+					<td><input type="button" value="*" onclick="disp(&#39;*&#39;)"> </td>
+				</tr>
+				<tr>
+					<td><input type="button" value="." onclick="disp(&#39;.&#39;)"> </td>
+					<td><input type="button" value="0" onclick="disp(&#39;0&#39;)"> </td>
+					<td><input type="button" value="=" onclick="print()">   </td>
+					<td><input type="button" value="/" onclick="disp(&#39;/&#39;)"> </td>
+				</tr>
+			</table>
+		</div>
+	</body>
+	<script type="text/javascript" src="index.js"></script>
+</html>
